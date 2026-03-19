@@ -23,3 +23,6 @@
     ->Used headings (<h2>) and paragraphs (<p>) inside each section
 
     ->Used an unordered list (<ul><li>) to represent skills clearly
+
+## Step-5:
+    ->Added footer section for reference
