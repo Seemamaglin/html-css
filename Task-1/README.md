@@ -26,3 +26,11 @@
 
 ## Step-5:
     ->Added footer section for reference
+
+## Step-6: CSS styling layout
+    ->Applied basic topography styles like font-family and colors
+    ->Added background colors, used margins,paddings to improve layout tructure
+
+## Step-7:Media queries
+    ->Implemented media queries to hande different screen sizes
+    ->Implemented CSS media queries to handle different screen sizes.
