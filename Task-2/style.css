@@ -13,5 +13,13 @@
 }
 
 .card{
-    flex:1 1 200px;
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 2px 5px grey;
+
+}
+
+.card-content{
+    padding:10px;
+    text-align: justify;
 }
