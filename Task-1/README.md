@@ -11,3 +11,15 @@
 
 ## Step-3:
     ->Updated index.html with nav tag having refernce to home,about,contact,projet pages
+
+## Step-4:
+    ->Added a <main> element to wrap the core content of the webpage
+
+    ->Created multiple <section> elements to logically separate content:
+        -About Me
+        -Contact Information
+        -Skills
+
+    ->Used headings (<h2>) and paragraphs (<p>) inside each section
+
+    ->Used an unordered list (<ul><li>) to represent skills clearly
