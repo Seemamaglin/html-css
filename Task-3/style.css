@@ -1,10 +1,27 @@
-h2{
-    text-align: center;
-    font-size: 40px;
-}
 .grid-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:30px;
     font-size: 40px;
+}
+
+.hobbies{
+    background-color: beige;
+    padding: 20px;
+    margin: auto;
+    max-width: 2000px;
+   
+}
+.hobbies h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.grid-item{
+    background-color: white;
+    padding:50px;
+    text-align: center;
+    border-radius: 20px;
 }
