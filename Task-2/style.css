@@ -15,11 +15,15 @@
 .card{
     border:2px solid black;
     border-radius: 10px;
-    box-shadow: 8px 2px 5px grey;
-
+    box-shadow: 8px 8px 5px grey;
+    transition: transform 0.3s ease,box-shadow 0,3s ease;
 }
-
 .card-content{
     padding:10px;
     text-align: justify;
+}
+.card:hover{
+    transform:scale(1.05);
+    box-shadow: 10px 10px 5px grey;
+    background-color: whitesmoke;
 }
