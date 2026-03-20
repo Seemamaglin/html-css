@@ -60,3 +60,13 @@ body{
     visibility: visible;
     transform: translateX(30%) translateY(0);
 }
+.dropdown:focus .submenu{
+    opacity: 1;
+    visibility: visible;
+}
+@media screen and (max-width: 600px) {
+    .submenu{
+        position: static;
+    }
+    
+}
