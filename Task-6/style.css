@@ -26,3 +26,18 @@ input[type="radio"] {
     color: white;
     border-bottom: 2px solid white;
 }
+
+.content{
+    display: none;
+}
+
+#tab1:checked ~ .tab-content #content1{
+    display: block;
+}
+
+#tab2:checked ~ .tab-content #content2{
+    display: block;
+}   
+#tab3:checked ~ .tab-content #content3{
+    display: block;
+}
