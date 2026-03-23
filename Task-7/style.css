@@ -11,7 +11,9 @@
     width:100%;
     overflow: hidden;
     max-width: 500px;
-    position: absolute;
+    margin:0 auto;
+    position: relative;
+    
 }
 .slide-wrapper img {
   width: 100%;
