@@ -1,0 +1,28 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color:beige;
+    padding: 30px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+.tab-labels{
+    display: flex;
+    gap: 20px;   
+}
+.tab-labels label{
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#tab1:checked ~ .tab-labels label[for="tab1"],
+#tab2:checked ~ .tab-labels label[for="tab2"],
+#tab3:checked ~ .tab-labels label[for="tab3"]{
+    background-color: darkcyan;
+    color: white;
+    border-bottom: 2px solid white;
+}
