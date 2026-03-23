@@ -24,20 +24,17 @@ input[type="radio"] {
 #tab3:checked ~ .tab-labels label[for="tab3"]{
     background-color: darkcyan;
     color: white;
-    border-bottom: 2px solid white;
 }
 
 .content{
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.9s ease;
 }
 
-#tab1:checked ~ .tab-content #content1{
-    display: block;
-}
-
-#tab2:checked ~ .tab-content #content2{
-    display: block;
-}   
+#tab1:checked ~ .tab-content #content1,
+#tab2:checked ~ .tab-content #content2,
 #tab3:checked ~ .tab-content #content3{
-    display: block;
+    opacity: 1;
+    visibility: visible;
 }
