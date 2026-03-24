@@ -29,3 +29,9 @@
   75%  { transform: translateX(-300%); }
   100% { transform: translateX(0%); }
 }
+
+@media (max-width: 600px) {
+  .slide-wrapper img {
+    height: 300px; 
+  }
+}
