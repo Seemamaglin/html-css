@@ -9,24 +9,26 @@
 <body>
     <ul id="accordion">
         <li>
-            <input type="checkbox" id="section1">
-            <label for="section1" >Section 1</label>
+            <input type="radio" name="accordion" id="section1">
+            <label for="section1">What is this Accordion?</label>
             <div class="content">
-                <p>This is the content of Section 1.</p>
+                <p>This accordion component is built using pure HTML and CSS without JavaScript. It uses the checkbox hack and CSS transitions to 
+                    smoothly expand and collapse content sections.</p>
             </div>
         </li>
         <li>
-            <input type="checkbox" id="section2">
-            <label for="section2">Section 2</label>
+            <input type="radio" name="accordion" id="section2">
+            <label for="section2">How does the accordion work?</label>
             <div class="content">
-                <p>This is the content of Section 2.</p>
+                <p>The accordion works by using radio buttons to control the visibility of each content section. 
+                    When a section is selected, it expands to show its content, while other sections collapse.</p>
             </div>
         </li>
         <li>
-            <input type="checkbox" id="section3">
-            <label for="section3">Section 3</label>
+            <input type="radio" name="accordion" id="section3">
+            <label for="section3">Can multiple sections be open?</label>
             <div class="content">
-                <p>This is the content of Section 3.</p>
+                <p>Yes, Multiple sections can be open at a time in this accordion implementation by using checkboxes instead of radio buttons.</p>
             </div>
         </li>
     </ul>
