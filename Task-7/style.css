@@ -4,7 +4,7 @@
 .slide-wrapper{
     display:flex;
     width:400%;
-    animation: slideAnimation 20s infinite linear;
+    animation: spin 5s infinite linear;
 }
 
 .slider{
@@ -20,14 +20,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  padding: 5px;
+  border-radius: 20px;
 }
 
-@keyframes slideAnimation {
-  0%   { transform: translateX(0%); }
-  25%  { transform: translateX(-100%); }
-  50%  { transform: translateX(-200%); }
-  75%  { transform: translateX(-300%); }
-  100% { transform: translateX(0%); }
+@keyframes spin{
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform: translateX(-100%);
+  }
 }
 
 @media (max-width: 600px) {
