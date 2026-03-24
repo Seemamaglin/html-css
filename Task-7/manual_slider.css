@@ -58,3 +58,8 @@
     transform: translateX(-75%);
 }
 
+@media (max-width: 600px) {
+  .slide img {
+    height: 300px; 
+  }
+}
