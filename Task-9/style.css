@@ -19,7 +19,8 @@ body{
 .page{
     display:grid;
     grid-template-columns: 250px 1fr;
-    min-height: 800px;
+    min-height: 600px;
+
 }
 .sidebar{
     background-color: wheat;
@@ -32,7 +33,7 @@ main{
     background-color: black;
     color:white;
     text-align: center;
-    padding:20px;
+    padding:10px;
 }
 .hero{
     background-color: wheat;
@@ -54,5 +55,12 @@ main{
 .product img{
     width:100%;
     height: 200px;
-
+}
+.badge{
+    position:absolute;
+    background-color: azure;
+    top:10px;
+    right:10px;
+    padding:5px 8px;
+    z-index:2;
 }
