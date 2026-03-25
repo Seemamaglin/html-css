@@ -34,3 +34,25 @@ main{
     text-align: center;
     padding:20px;
 }
+.hero{
+    background-color: wheat;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.products{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+.product{
+    background-color: white;
+    padding: 15px;
+    width:250px;
+    position: relative;
+    border: 1px solid whitesmoke;
+}
+.product img{
+    width:100%;
+    height: 200px;
+
+}
