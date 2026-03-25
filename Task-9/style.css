@@ -4,12 +4,13 @@ body{
 }
 .header{
     position:sticky;
+    top:0;
     background-color: black;
     color:white;
     padding:20px;
     display: flex;
     justify-content: space-between;
-
+    
 }
 .header nav a{
     color:bisque;
@@ -24,8 +25,9 @@ body{
 }
 .sidebar{
     background-color: wheat;
-    padding:20px;
+    padding:20px;    
 }
+
 main{
     padding:20px;
 }
