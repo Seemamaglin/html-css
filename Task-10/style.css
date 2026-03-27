@@ -121,6 +121,7 @@ body{
   height:200px;
   object-fit: cover;
 }
+
  body {
   background: rgb(44, 5, 5);
   font-family: 'Cormorant Garamond', Georgia, serif;
@@ -272,4 +273,27 @@ body{
 :target {
   opacity: 1;
   transform: translateY(0);
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+  background: #1e1108;
+}
+
+.nav-btn a {
+  position: relative;
+  color: peru;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+  .nav-btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }
